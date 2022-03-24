@@ -29,15 +29,26 @@ body > * {
   padding-right: 15px !important;
 }
 
+p {
+  margin-top: 0;
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+}
+
 a {
   font-size: 16px;
   color: #ffffff;
   text-decoration: none;
 }
 
+a:hover {
+  color: #dbdbdb;
+}
+
 @media screen and (min-width: 800px) {
   .container {
     max-width: 80%;
+    margin: 0 auto;
   }
 }
 
@@ -79,7 +90,7 @@ header {
 
 header > div {
   width: 100%;
-  padding: 15px 0;
+  padding: 25px 0 15px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -153,6 +164,7 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 20px 0;
   position: absolute;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -164,18 +176,48 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: #333333;
 }
 
 footer p {
-  font-size: 12px;
+  font-size: 14px;
+}
+
+footer nav {
+  margin-bottom: 10px;
+}
+
+footer nav ul li a {
+  font-size: 30px;
 }
 
 #topSection {
   width: 100%;
-  padding-top: 65px;
-  min-height: 665px;
-  background-size: auto;
-  background-position: center center;
-  background-image: url("/assets/images/bg.png");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 500px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 134px 0 60px;
+  background-color: #333333;
+}
+
+@media screen and (min-width: 800px) {
+  #topSection .content {
+    max-width: 40%;
+  }
+}
+
+#topSection .content h1 {
+  margin-top: 0;
+  font-size: 3rem;
+  line-height: 3.9rem;
+  margin-bottom: 20px;
+}
+
+#topSection .content p {
+  margin: 0;
 }
 /*# sourceMappingURL=main.css.map */
