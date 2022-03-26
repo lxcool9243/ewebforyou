@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Full stack web & mobile application development | ewebforyou</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+      integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="/">
+            <picture>
+              <source
+                media="(max-width: 500px)"
+                srcset="/assets/images/icon.png"
+              />
+              <img src="/assets/images/logo.png" alt="ewebforyou" />
+            </picture>
+          </a>
+        </div>
+        <nav>
+          <span id="toggleMenu"><span class="fa-solid fa-bars"></span></span>
+          <ul class="menu">
+            <li><a href="/#our-services">Our Services</a></li>
+            <li><a href="/#get-in-touch">Get in Touch</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="topSection">
+      <div class="container">
+        <div class="content">
+          <h1>Mobile & Web App Development</h1>
+          <p>
+            We're leading industry experts of mobile and web application
+            development.
+          </p>
+          <a class="button" href="/#get-in-touch">Get in Touch</a>
+        </div>
+        <img src="/assets/images/bg.png" alt="Mobile & Web Development" />
+      </div>
+    </section>
+    <section id="our-services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>Web Solutions</h3>
+            <p>
+              We provide all types of web solutions from Frontend to Backend.
+            </p>
+            <ul>
+              <li>Free Consultation</li>
+              <li>ReactJS App Development</li>
+              <li>NextJS App Development</li>
+              <li>Enterprise App Development</li>
+              <li>PHP Web Development</li>
+            </ul>
+            <span class="fa-brands fa-safari"></span>
+          </div>
+          <div class="card">
+            <h3>Mobile Solutions</h3>
+            <p>
+              We provide native and hybrid solutions for mobile application.
+            </p>
+            <ul>
+              <li>Free Consultation</li>
+              <li>React Native App Development</li>
+              <li>Flutter App Development</li>
+              <li>Android App Development</li>
+              <li>iOS & iPhone App Development</li>
+            </ul>
+            <span class="fa-solid fa-mobile"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="get-in-touch">
+      <div class="container">
+        <h2>Get in Touch</h2>
+        <div class="card">
+          <h3><span class="fa-solid fa-paper-plane"></span>Chat with us</h3>
+          <form>
+            <div>
+              <label for="name">Your Name *</label>
+              <input
+                id="name"
+                type="text"
+                name="name"
+                autocomplete="off"
+                pattern="[a-zA-Z\s]+"
+                required
+              />
+            </div>
+            <div>
+              <label for="email">Your Email</label>
+              <input type="email" name="email" id="email" autocomplete="off" />
+            </div>
+            <div>
+              <label for="mobile">Mobile *</label>
+              <input
+                type="tel"
+                id="mobile"
+                name="mobile"
+                minlength="10"
+                maxlength="10"
+                pattern="(7|8|9)\d{9}"
+                autocomplete="off"
+                required
+              />
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea
+                rows="10"
+                id="message"
+                name="message"
+                autocomplete="off"
+              ></textarea>
+            </div>
+            <span>
+              <button class="button" type="submit">Send Message</button
+              >&nbsp;&nbsp;
+              <button class="button" type="reset">Reset</button>
+            </span>
+            <div id="formResponse"></div>
+          </form>
+        </div>
+        <br />
+        <div class="cards">
+          <div class="card">
+            <h3><span class="fa-solid fa-phone"></span>Contact Us</h3>
+            <p>+91-9643155916</p>
+            <p>ewebforyou@gmail.com</p>
+          </div>
+          <div class="card">
+            <h3><span class="fa-solid fa-location-dot"></span>Location</h3>
+            <p>New Delhi, India</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/ewebforyou" target="_blank"
+              ><span class="fa-brands fa-facebook"></span
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://api.whatsapp.com/send?phone=919643155916"
+              target="_blank"
+              ><span class="fa-brands fa-whatsapp"></span
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <p>copyright ©️ 2017 ewebforyou</p>
+    </footer>
+    <script src="/assets/js/main.js" defer></script>
+  </body>
+</html>
